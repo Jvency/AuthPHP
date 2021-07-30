@@ -1,0 +1,98 @@
+@import url(/assets/app.css);
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      25deg,
+      rgb(34 193 195 / 0.95) 0%,
+      rgb(45 253 204 / 0.95) 100%
+    );
+
+  font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+}
+.blue {
+  color: #416893;
+}
+
+.grey {
+  color: gray;
+}
+
+#app {
+  border-radius: 2%;
+  width: 80vw;
+  box-shadow: 1px 1px 20px 3px #00000059;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  min-height: 75vh;
+  background-color: whitesmoke;
+}
+
+.panel{
+  min-height: 75vh;
+}
+
+.blue{
+  background-color: var(--blue);
+}
+
+.indigo{
+  background: linear-gradient(90deg, var(--indigo), var(--indigo), var(--blue)) ;
+}
+
+.login{
+  background: linear-gradient(90deg, var(--blue), var(--blue), var(--indigo)) ;
+}
+
+.form{
+  margin: 10% 0px;
+  color: #fff;
+}
+
+.form-control{
+  margin: 10px 0px;
+
+}
+
+img{
+  margin: 20% 25%;
+  height: 50%;
+  width: 50%;
+
+}
+.img{
+  background: radial-gradient( rgba(255, 255, 255, 0.1), var(--blue) );
+  width: 100%;
+}
+
+.signup{
+  width: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--indigo));
+  color: #fff;
+  border: solid #fff;
+  border-width: 5px;
+  
+}
+
+h4{
+  color: #fff;
+}
+
+.link{
+  color: #fff;
+}
+.link:hover{
+  color: #fff;
+}
+
