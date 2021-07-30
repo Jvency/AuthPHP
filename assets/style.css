@@ -78,9 +78,9 @@ img{
 
 .signup{
   width: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--indigo));
+  background:  rgba(255, 255, 255, 0.2);
   color: #fff;
-  border: solid #fff;
+  border: 2px solid #fff;
   border-width: 5px;
   
 }
